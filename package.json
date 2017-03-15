@@ -1,0 +1,23 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "채팅 서버 ",
+  "main": "chat_main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "10박정웅",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-logger": "0.0.3",
+    "moment-timezone": "^0.5.11",
+    "mysql": "^2.12.0",
+    "request": "^2.79.0",
+    "socket.io": "^1.7.2"
+  }
+}

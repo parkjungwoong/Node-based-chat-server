@@ -1,0 +1,22 @@
+CREATE TABLE `user_info` (
+  `id` varchar(20) NOT NULL,
+  `pw` varchar(200) DEFAULT NULL
+  `name` varchar(20) NOT NULL
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `message` (
+  `num` int(100) NOT NULL AUTO_INCREMENT,
+  `sender` varchar(45) NOT NULL DEFAULT '',
+  `room` varchar(200) NOT NULL DEFAULT '',
+  `message` longtext NOT NULL,
+  `time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `flag` varchar(1000) DEFAULT '',
+  PRIMARY KEY (`num`)
+) ENGINE=InnoDB AUTO_INCREMENT=1783 DEFAULT CHARSET=utf8;
+
+CREATE TABLE `group_chat` (
+  `room` varchar(200) NOT NULL,
+  `id` varchar(20) NOT NULL DEFAULT '',
+  `start_num` int(100) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
