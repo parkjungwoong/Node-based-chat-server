@@ -1,7 +1,8 @@
 # Node-based-chat-server
 ### 이 프로젝트는 NodeJS Express Socket.IO 를 활용한 채팅 서버 입니다
-### 클라이언트 부분은 ionic을 이용한 하이브리드 앱 / jquery를 이용한 일반 웹 버전으로 준비 중입니다 
-> 아직 원본 코드는 타 서비스에서 서비스 중이라 공개 할 수 없어 공개용으로 조금 작업이 필요합니다. 하지만 곧 공개 예정입니다.
+### 클라이언트 부분은 ionic을 이용한 하이브리드 앱 / jquery를 이용한 일반 웹 버전으로 준비 중입니다.
+
+### ionic 예제 : [GitHub링크](https://github.com/parkjungwoong/angularjs-based-chat-client)
 
 ### 자세한 설명은 <http://www.slideshare.net/ssuserf64d04/nodeexpress> 참고해주세요
 
